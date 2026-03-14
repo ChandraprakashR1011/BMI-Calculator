@@ -7,7 +7,7 @@ function App() {
   const[bmi, setBmi] = useState(null)
   const[bmiStatus, setBmiStatus] = useState("");
   const[error, setError] = useState("");
-
+//hiiiiiiiiiiiii
   const calculateBmi=()=>{
     const isValidHeight = /^\d+$/.test(height) ;
     const isValidWeight = /^\d+$/.test(weight) ;
